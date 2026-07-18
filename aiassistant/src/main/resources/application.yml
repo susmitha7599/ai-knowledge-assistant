@@ -1,0 +1,12 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/ai_assistant
+    username: postgres
+    password: Susmitha@123
+
+logging:
+  level:
+    org.springframework: DEBUG
+gemini:
+  api:
+    key: AIzaSyAaWEZYYLYZaJYkb3LNbE35yaKa6P5FmGY
